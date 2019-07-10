@@ -7,12 +7,12 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        new_hash[name] ||= {}
        new_hash[name][key] ||= []
-       new_hash[name][key] << item.to_s 
+       new_hash[name][key] << item.to_s
+       end
      end
    end
- end
  new_hash
- end
+end
 
 
   
@@ -23,3 +23,4 @@ def nyc_pigeon_organizer(data)
  # "Theo" => {
   #  :color => ["purple", "grey"],
   
+\
